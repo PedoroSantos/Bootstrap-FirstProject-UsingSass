@@ -6,9 +6,6 @@ This project showcases my first project using Bootstrap for creating a responsiv
 
 The project provides a responsive login and registration interface that adapts to different screen sizes. However, please note that it does not include authentication functionality or database integration. The purpose is to showcase my proficiency in working with responsive design using Bootstrap and Sass.
 
-## Customization
-
-To customize the design and style of the login and registration screen, you can modify the `style.scss` file in the `scss` directory. Take advantage of the responsive classes and utilities offered by Bootstrap to create a seamless experience across various devices and screen sizes.
 
 ## Dependencies
 
