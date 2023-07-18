@@ -1,2 +1,24 @@
-# Bootstrap Login & Registration: First Project
- My first project using Bootstrap and Sass features a login and registration page. This project demonstrates the utilization of Bootstrap's responsive components and Sass for enhanced styling. 
+# Bootstrap Responsive Login and Registration Screen
+
+This project showcases a responsive login and registration screen created using the Bootstrap framework and Sass. It demonstrates your ability to utilize Bootstrap for responsive web development.
+
+## Usage
+
+The project provides a responsive login and registration interface that adapts to different screen sizes. However, please note that it does not include authentication functionality or database integration. The purpose is to demonstrate your proficiency in working with responsive design using Bootstrap and Sass.
+
+## Customization
+
+To customize the design and style of the login and registration screen, you can modify the `style.scss` file in the `scss` directory. Take advantage of the responsive classes and utilities offered by Bootstrap to create a seamless experience across various devices and screen sizes.
+
+## Dependencies
+
+This project relies on the following dependencies:
+
+- Bootstrap 5.3
+- Sass
+
+Make sure to install these dependencies using your preferred package manager.
+
+## Note
+
+Please be aware that this project does not include a license. Ensure that you comply with the appropriate legal requirements when using and distributing the code.
