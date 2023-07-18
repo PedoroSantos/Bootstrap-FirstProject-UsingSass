@@ -1,10 +1,10 @@
 # Bootstrap Responsive Login and Registration Screen
 
-This project showcases a responsive login and registration screen created using the Bootstrap framework and Sass. It demonstrates your ability to utilize Bootstrap for responsive web development.
+This project showcases my first project using Bootstrap for creating a responsive login and registration screen. It demonstrates my ability to utilize Bootstrap and Sass for web development.
 
 ## Usage
 
-The project provides a responsive login and registration interface that adapts to different screen sizes. However, please note that it does not include authentication functionality or database integration. The purpose is to demonstrate your proficiency in working with responsive design using Bootstrap and Sass.
+The project provides a responsive login and registration interface that adapts to different screen sizes. However, please note that it does not include authentication functionality or database integration. The purpose is to showcase my proficiency in working with responsive design using Bootstrap and Sass.
 
 ## Customization
 
