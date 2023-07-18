@@ -1,0 +1,130 @@
+$basecolor: #bacbd9;
+$color1: #1a3540;
+$color2: #3c5e73;
+$color3: #93abbf;
+$color4: #7292a6;
+$color5: #25454f;
+html {
+  min-height: 100vh;
+  background: linear-gradient(
+    -45deg,
+    rgba(26, 53, 64, 1) 0%,
+    rgba(60, 94, 115, 1) 90%
+  );
+}
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+}
+legend {
+  transition: 0.5s;
+  &:hover {
+    letter-spacing: 1.5px;
+  }
+}
+input {
+  &:hover {
+    outline: 1px solid $color1;
+  }
+}
+
+#login-content {
+  transition: 0.7s;
+  width: 21%;
+  height: 500px;
+  background-color: $color2;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 2px solid $color2;
+  position: relative;
+  &.test {
+    &::before {
+      margin-left: -8px;
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      border-radius: 13px;
+      animation: loading-animation 5s linear infinite;
+      animation-fill-mode: forwards;
+      filter: blur(35px);
+    }
+  }
+  &::after {
+    transition: 0.7s;
+    margin-left: -10px;
+    position: absolute;
+    content: "";
+    width: 99%;
+    height: 99%;
+    background: $basecolor;
+    border-radius: 16px;
+    border: 2px solid $color3;
+    filter: blur(2px);
+  }
+}
+
+@keyframes loading-animation {
+  0% {
+    background: radial-gradient(circle at center, #ffffff 0%, #ffffff 70%);
+    background-size: 200% 200%;
+    background-position: center;
+    transform: rotate(0deg);
+  }
+  50% {
+    background: radial-gradient(circle at center, #ffffff 0%, #ffffff 70%);
+    background-size: 200% 200%;
+    background-position: center;
+    transform: rotate(180deg);
+  }
+  100% {
+    background: radial-gradient(circle at center, #ffffff 0%, #ffffff 70%);
+    background-size: 200% 200%;
+    background-position: center;
+    transform: rotate(360deg);
+  }
+}
+.hover {
+  animation: loading-animation 5s linear infinite;
+}
+.login-items {
+  z-index: 4;
+}
+
+main {
+  height: 100%;
+}
+
+#forgotpass {
+  font-size: 14px;
+  color: $color4;
+  text-decoration: none;
+  transition: 0.5s;
+  &:hover {
+    letter-spacing: 0.6px;
+    text-decoration: underline;
+  }
+}
+#registerbtn {
+  color: $color3;
+  font-size: 14px;
+  transition: 0.6s;
+  text-decoration: none;
+  &:hover {
+    color: white;
+    letter-spacing: 0.9px;
+    text-decoration: underline;
+  }
+}
+.btn-custom{
+  padding: 2% 5%;
+  border-radius: 10px;
+  background-color: $basecolor; 
+  border: 1px solid $color4;
+  transition: .5s;
+  &:hover {
+    outline: 1px solid $color5;
+    background-color: $color3;
+    letter-spacing: 1px;
+  }
+}
